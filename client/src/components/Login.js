@@ -17,7 +17,7 @@ const Login = (props) => {
         .then(res => {
             localStorage.setItem('token', res.data.payload);
             setLogged(false);
-            props.history.push('/bubbles');
+            props.history.push('/colors');
         })
         .catch(err => console.log(err));
   };
