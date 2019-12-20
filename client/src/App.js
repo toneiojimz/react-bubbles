@@ -5,7 +5,7 @@ import Login from "./components/Login";
 import PrivateRoute from './components/PrivateRoute';
 import BubblePage from './components/BubblePage';
 import "./styles.scss";
-import ColorList from "./components/ColorList";
+
 
 function App() {
   return (
